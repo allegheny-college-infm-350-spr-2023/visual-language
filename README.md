@@ -1,4 +1,4 @@
-# Prompt 6: Visual Narrative/Lanaguge
+# Prompt 7: Visual Narrative/Lanaguge
 
 > Rather than a 100% generative process, I like to think of this as a
 >generative exosuit that carries me through the aesthetic process,
@@ -39,7 +39,7 @@ This is where _you_ come in.
 ## Goals
 
 * Extending/refining our ability to practice prompt engineering to achieve specific higher-quality results
-* Gaining an understanding of narrative as a function/technology of time at both high-level narrative (story) and event-driven narrative (plot)
+* Gaining an understanding of image narrative as a function/technology of time at both high-level narrative (story) and event-driven narrative (plot)
 * Discussing the ways in which models succeed or fail at creating equitable, fair, and representative stories
 * Discovering other exploitable boundaries and what these offer
 
