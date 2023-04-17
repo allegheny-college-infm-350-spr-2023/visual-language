@@ -22,10 +22,10 @@ def download(url: str = "") -> None:
 def generate_prompt(**kwargs) -> str:
     response = openai.Image.create(
         prompt = kwargs["prompt"],
-        n = 1,
+        n = 5,
         size = "1024x1024"
     )
-    return response['data'][0]['url']
+    return response['data']
 
 def make_edit(**kwargs) -> str:
     response = openai.Image.create_edit(
@@ -60,8 +60,8 @@ def main():
     print("Q. At any time to quit")
 
     # Action
-    src_img = None
-    prompt = None
+    src_img = ""
+    prompt = ""
     try:
         action = int(input("Choose from menu above: "))
     except:
